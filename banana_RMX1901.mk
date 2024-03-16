@@ -16,7 +16,7 @@ BANANA_MAINTAINER := SHRAVAN
 WITH_GAPPS := true
 
 
-$(call inherit-product, vendor/banana/config/common_full_phone.mk)
+$(call inherit-product, vendor/banana/config/common.mk)
 
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
