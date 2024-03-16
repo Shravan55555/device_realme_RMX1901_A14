@@ -14,7 +14,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_DISABLE_EPPE := true
 BANANA_MAINTAINER := SHRAVAN
 WITH_GAPPS := true
-
+TARGET_DISABLE_EPPE := true
 
 $(call inherit-product, vendor/banana/config/common.mk)
 
