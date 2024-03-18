@@ -9,4 +9,4 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     pixelstar_RMX1901-userdebug \
-    poxelstar_RMX1901-eng
+    pixelstar_RMX1901-eng
