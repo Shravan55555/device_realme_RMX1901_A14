@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_RMX1901.mk
+    $(LOCAL_DIR)/pixelstar_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_RMX1901-userdebug \
-    blaze_RMX1901-eng
+    pixelstar_RMX1901-userdebug \
+    poxelstar_RMX1901-eng
