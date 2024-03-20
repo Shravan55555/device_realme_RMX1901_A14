@@ -14,7 +14,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 WITH_GAPPS := true
 TARGET_DISABLE_EPPE := true
 
-$(call inherit-product, vendor/pixelstar/config/common_full_phone.mk)
+$(call inherit-product, vendor/apollo/config/common_full_phone.mk)
 
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -24,7 +24,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1901
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := pixelstar_RMX1901
+PRODUCT_NAME := apollo_RMX1901
 PRODUCT_MODEL := Realme X
 
 PRODUCT_SYSTEM_NAME := RMX1901
