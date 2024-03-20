@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/apollo_RMX1901.mk
+    $(LOCAL_DIR)/aosp_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    apollo_RMX1901-userdebug \
-    apollo_RMX1901-eng
+    aosp_RMX1901-userdebug \
+    aosp_RMX1901-eng
