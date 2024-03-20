@@ -11,7 +11,6 @@ TARGET_HAS_UDFPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
-WITH_GAPPS := true
 TARGET_DISABLE_EPPE := true
 
 $(call inherit-product, vendor/apollo/config/common_full_phone.mk)
