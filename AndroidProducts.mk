@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/droidx_RMX1901.mk
+    $(LOCAL_DIR)/cherish_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    droidx_RMX1901-userdebug \
-    droidx_RMX1901-eng
+    cherish_RMX1901-userdebug \
+    cherish_RMX1901-eng
