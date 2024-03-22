@@ -12,12 +12,11 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_DISABLE_EPPE := true
-USE_PIXEL_CHARGING := true
-TARGET_INCLUDE_CARRIER_SETTINGS := true
-HORIZON_MAINTAINER := SHRAVAN
-WITH_GMS := true
+EVEREST_BUILD_TYPE := UNOFFICIAL
+EVEREST_MAINTAINER := SHRAVAN
+WITH_GAPPS := true
 
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/everest/config/common_full_phone.mk)
 
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -27,7 +26,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1901
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := aosp_RMX1901
+PRODUCT_NAME := everest_RMX1901
 PRODUCT_MODEL := Realme X
 
 PRODUCT_SYSTEM_NAME := RMX1901
