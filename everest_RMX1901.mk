@@ -6,6 +6,8 @@
 
 # Inherit some common Pixel Experience stuff
 
+TARGET_USES_LAWNCHAIR := true
+EVEREST_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
