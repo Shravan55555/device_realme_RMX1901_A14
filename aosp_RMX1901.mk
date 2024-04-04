@@ -11,7 +11,7 @@ TARGET_HAS_UDFPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_DISABLE_EPPE := true
-
+TARGET_CALL_RECORDING_SUPPORTED := true
 
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
