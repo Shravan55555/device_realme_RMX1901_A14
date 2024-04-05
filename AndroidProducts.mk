@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_RMX1901.mk
+    $(LOCAL_DIR)/sigma_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_RMX1901-userdebug \
-    syberia_RMX1901-eng
+    sigma_RMX1901-userdebug \
+    sigma_RMX1901-eng
