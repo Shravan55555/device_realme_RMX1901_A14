@@ -12,8 +12,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_DISABLE_EPPE := true
 EXTRA_UDFPS_ANIMATIONS := true
+SIGMA_BUILD_PACKAGE := gapps
 
-$(call inherit-product, vendor/syberia/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -23,7 +24,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1901
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := syberia_RMX1901
+PRODUCT_NAME := sigma_RMX1901
 PRODUCT_MODEL := Realme X
 
 PRODUCT_SYSTEM_NAME := RMX1901
